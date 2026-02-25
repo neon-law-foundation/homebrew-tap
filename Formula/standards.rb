@@ -1,17 +1,17 @@
 class Standards < Formula
   desc "Legal standards CLI for Markdown linting, PDF conversion, and document management"
   homepage "https://github.com/neon-law-foundation/SagebrushStandards"
-  version "2026.02.24"
+  version "2026.02.25"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/neon-law-foundation/SagebrushStandards/releases/download/v2026.02.24/standards-2026.02.24-macos-arm64.tar.gz"
-      sha256 "36c0fae69b2046e5f7650ab901d8be280e32687650b9cff5c102e484e3ff1f4e"
+      url "https://github.com/neon-law-foundation/SagebrushStandards/releases/download/v2026.02.25/standards-2026.02.25-macos-arm64.tar.gz"
+      sha256 "a2d1b5575cb8bcf0119a7e854b577160f844603f13ff3fb4122f2947aaa3872d"
     end
     on_intel do
-      url "https://github.com/neon-law-foundation/SagebrushStandards/releases/download/v2026.02.24/standards-2026.02.24-macos-x86_64.tar.gz"
-      sha256 "00a82f3bec56494bf64a59d383c58addccdd437d4e0e3cd4ddae95d036e9f104"
+      url "https://github.com/neon-law-foundation/SagebrushStandards/releases/download/v2026.02.25/standards-2026.02.25-macos-x86_64.tar.gz"
+      sha256 "143cb84e59853761008638c05253baa208836c4123de886129d7513e5aac7eb8"
     end
   end
 
