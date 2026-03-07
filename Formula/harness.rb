@@ -1,17 +1,17 @@
 class Harness < Formula
   desc "Legal standards CLI for Markdown linting, PDF conversion, and document management"
   homepage "https://github.com/neon-law-foundation/Harness"
-  version "2026.03.06"
+  version "2026.03.07"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/neon-law-foundation/Harness/releases/download/v2026.03.06/harness-2026.03.06-macos-arm64.tar.gz"
-      sha256 "e98e14555d0b81efe287d3a3540ea34730cf078bc240c63f11adda8b3689696b"
+      url "https://github.com/neon-law-foundation/Harness/releases/download/v2026.03.07/harness-2026.03.07-macos-arm64.tar.gz"
+      sha256 "60fbe1f081d1d7a3a441171321d458fe4053d4cde4ad877b0dfbeb69b491915b"
     end
     on_intel do
-      url "https://github.com/neon-law-foundation/Harness/releases/download/v2026.03.06/harness-2026.03.06-macos-x86_64.tar.gz"
-      sha256 "8f71cf2dfc87e353d348a5caf197a90f32a6957438b976c2487ae5954cfb63d4"
+      url "https://github.com/neon-law-foundation/Harness/releases/download/v2026.03.07/harness-2026.03.07-macos-x86_64.tar.gz"
+      sha256 "6650b61be3cea7ed448c6be67106770e556ef459c053c3de37fbfce3e0fe9f3d"
     end
   end
 
